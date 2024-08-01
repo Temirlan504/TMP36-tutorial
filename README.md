@@ -13,11 +13,11 @@ This tutorial will show you how to use the [TMP36](https://www.analog.com/media/
 
 ### Circuit Diagram
 
-![TMP36 Circuit Diagram](images/tmp36_circuit_diagram.png)
+![TMP36 Circuit Diagram](tmp36_circuit_diagram.png)
 
 Using the TMP36 datasheet, we see the sensor pins as follows:
 
-![TMP36 Pinout](images/tmp36_pinout.png)
+![TMP36 Pinout](tmp36_pinout.png)
 
 With the legs facing you, the left pin is the voltage pin, the middle pin is the output voltage, and the right pin is the ground pin.
 
@@ -32,7 +32,7 @@ The TMP36 sensor provides an output voltage linearly proportional to the Celsius
 
 The TMP36 datasheet provides the following graph:
 
-![TMP36 Graph](images/tmp36_graph.png)
+![TMP36 Graph](tmp36_graph.png)
 
 From the graph, we can take any two points (x1, y1) and (x2, y2) to calculate the slope. For this example, we use the points (1V, 50°C) and (0.4V, -12.5°C).
 
