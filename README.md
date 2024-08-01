@@ -37,7 +37,7 @@ The TMP36 datasheet provides the following graph:
 From the graph, we can take any two points (x1, y1) and (x2, y2) to calculate the slope. For this example, we use the points (1V, 50°C) and (0.4V, -12.5°C).
 
 Using the slope formula, we get:
-\[ m = \frac{50 - (-12.5)}{1 - 0.4} = \frac{62.5}{0.6} = 104.1667 \]
+$\[ m = \frac{50 - (-12.5)}{1 - 0.4} = \frac{62.5}{0.6} = 104.1667 \]$
 
 Next, we calculate the y-intercept (b) by substituting the values of m, x, and y in the line equation. Using the point (1V, 50°C):
 \[ 50 = 104.1667 \cdot 1 + b \]
